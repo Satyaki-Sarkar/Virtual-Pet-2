@@ -126,10 +126,6 @@ function showError(err){
 function addFood(){
   if(foodS<20)
   {
-    dog.addImage(happyDog);
-    c=20;
-
-    // writeStock(foodS);
     foodS++;
     foodStock.update({
     Food : foodS 
